@@ -30,8 +30,8 @@
   },
   "lint-staged": {
     "src/**/*.{vue}": [
-      "vue-cli-service lint",
-      "npx pretiier --write",
+      "npm run lint",
+      "npx pretier --write",
       "git add"
     ]
   },
