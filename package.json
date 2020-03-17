@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "surge":  "npm run build && mv ./dist/index.html ./dist/200.html && surge --project ./dist --domain yasinatesim.vue-counter-up.surge.sh"
+    "surge": "npm run build && mv ./dist/index.html ./dist/200.html && surge --project ./dist --domain yasinatesim.vue-counter-up.surge.sh"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -25,13 +25,14 @@
     "lint-staged": "^10.0.8",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.10"
   },
   "lint-staged": {
     "src/**/*.{vue}": [
       "npm run lint",
-      "prettier --write",
+      "pretty-quick --staged",
       "git add"
     ]
   },
