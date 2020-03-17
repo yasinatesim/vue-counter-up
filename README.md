@@ -7,7 +7,9 @@
 <h2  align="center">Vue Counter Up</h2>
 [![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)   
 
-  This project was developed for improve myself.
+  This project is basic counter up app via [Vue](https://github.com/vuejs/vue).
+
+  This project was developed for improve myself. ??
 
 ---  
   
