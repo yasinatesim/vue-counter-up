@@ -31,7 +31,7 @@
   "lint-staged": {
     "src/**/*.{vue}": [
       "npm run lint",
-      "npx pretier --write",
+      "npx prettier --write",
       "git add"
     ]
   },
