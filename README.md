@@ -9,7 +9,7 @@
 
   This project is basic counter up app via [Vue](https://github.com/vuejs/vue).
 
-  This project was developed for improve myself. ??
+  This project was developed for improve myself.
 
 ---  
   
