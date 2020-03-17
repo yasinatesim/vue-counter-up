@@ -33,6 +33,7 @@
     "src/**/*.{vue}": [
       "npm run lint",
       "pretty-quick --staged",
+      "npm run surge",
       "git add"
     ]
   },

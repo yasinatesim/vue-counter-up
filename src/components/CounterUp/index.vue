@@ -1,6 +1,7 @@
 <template>
   <div class="card">
     <div class="card-body">
+      <h2 class="title">Counter Up App</h2>
       <div class="card-content">
         <button class="btn btn--gray" @click="decrease">-</button>
         <span class="counter">{{ counter }}</span>
@@ -42,6 +43,13 @@ export default {
 <style lang="scss" scoped>
 $gray: #cfcfcf;
 $red: darken(#ff5063, 20%);
+
+.title {
+  font-size: 16px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid $gray;
+}
 
 .card {
   font-family: "Open Sans", sans-serif;
