@@ -1,8 +1,5 @@
 
-<p  align="center">
 ![](vue-counter-up.gif)
-
-</p>
 
 <h2  align="center">Vue Counter Up</h2>
 [![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)   
