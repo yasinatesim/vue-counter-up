@@ -1,6 +1,6 @@
 
 <p  align="center">
-<img src="vue-counter-up.gif" alt="Vue Counter Up">
+<img src="https://yasinates.com/counter-up.gif" alt="Vue Counter Up" width="400">
 
 </p>
 
